@@ -1,0 +1,418 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.container{
+	 width:1500px;
+	 margin:auto;
+	}
+#nav{
+	 width:100%;
+	 height:70px;
+	 background:#ebebeb;
+	 border-bottom:#4389ad solid 3px;
+	}
+.container #logo{
+	  float:left;
+	  width:29%;
+	  margin-left:1%
+	}
+.container #navbar{
+	  float:right;
+	  width:69%;
+	  height:100%;
+	  margin-right:1%;
+	}
+#navbar li {	 
+      position:relative;
+	  z-index:100; 
+	  float:left;
+	  width:20%;
+	  height:100%;
+	  background:#ebebeb;
+	  text-align:center;
+	  padding-top:22px;
+	  box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+	  box-shadow:-5px 0px 11px 0px rgba(0, 0, 0, 0.7);
+	}
+#navbar #mobile {	  
+	  display:none;
+	  width:20%;
+	  height:50px;
+	  padding-top:30px;
+	  box-shadow:-5px 0px 11px 0px rgba(0, 0, 0, 0.7);
+	}
+#navbar a{
+	  color:#000;
+	  font:21px 'Ubuntu', sans-ser;
+	}
+#navbar a:hover li,#navbar .active li{
+	  background:#4389ad;
+	}
+#banner{
+  background:url(../img/banner.jpg) no-repeat;
+  position: relative;
+  zoom: 1;
+  margin-left:auto;
+  margin-right:auto
+	}
+#banner h2{
+  position: relative;
+	}
+.main{
+	 width:100%;
+	}
+.container #call{
+	 width:30%; 
+	 float:left;
+	 padding:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	 background:url(../img/call.jpg);
+	 background-size:100% 100%;
+	 -moz-background-size:100% 100%;
+	 -webkit-background-size:100% 100%;
+	 margin:1%;
+	 border-radius:3px;
+	}
+.container #call #number{
+	 width:100%; 
+	 height:125px;
+	 text-align:center;
+	 padding-top:50px;
+	 box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+	}
+.container #call #number h2{
+	 font:bold 30px 'Ubuntu', sans-serif;
+	 color:#000;
+	}
+.container #call #ara{
+	 width:87%; 
+	 height:125px;
+	 text-align:center;
+	 margin:auto;
+	}
+ .container #call #ara p{
+	 font:bold 15px 'Ubuntu', sans-serif;
+	 margin:7%;
+	}
+.container #call #ara #containerara{ 
+	 height:60%;
+	 background:rgba(0,0,0,0.3);
+	 margin:auto;
+	 border-radius:40px;
+	}
+.container #call #ara #containerara #callme{
+	 float:left;
+	 width:30%; 
+	 height:90%;
+	 background:#0C0;
+	 margin:5px;
+	 border-radius:40px;
+	 transition: margin 1s;
+	 -moz-transition: margin 1s;
+      -webkit-transition: margin 1s;
+	}
+.container #call #ara #containerara #callme:hover{
+	 background:#090;
+	}
+.container #call #ara #containerara #callme img{
+	 width:75%; 
+	 height:75%;
+	 margin:10px 5px;
+	}
+.container #call #ara #containerara h2{
+	 font:bold 19px 'Ubuntu', sans-serif;
+	 color:#000;
+	 padding:24px 10px;
+	 box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+	}
+.container #hakkimizda{
+	float:left;
+	 width:66%; 
+	 background:#ebebeb;
+	 border-radius:3px;
+	 margin:1%;
+	}
+.container #hakkimizda a{
+	 float:left; 
+	 height:230px;
+	 width:47%;
+	 margin:1.5%;
+	}
+.container #hakkimizda a img{
+	 width:97%;
+	 height:82%;
+	 margin:1.5%;
+	}
+.container #hakkimizda p{
+	 width:97%;
+	 height:15%;
+	 margin:-1.5% 1.5%;
+	 background:#4389ad;
+	 color:#fff;
+	 font:18px 'Ubuntu', sans-serif;
+	 text-align:center;
+	 padding:1.5%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+.container #hakkimizda h2{
+	 text-align:center;
+	 color:#4389ad;
+	 font:bold 20px 'Ubuntu', sans-serif;
+	 height:20px;
+	}
+.container .containerproject{
+	 width:98%; 
+	 padding:1%;
+	 float:left;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	 background:#ebebeb;
+	 margin:1%;
+	 border-radius:3px;
+	}
+.container .project{
+	 width:30.33%;
+	 height:300px; 
+	 float:left;
+	 margin:1.5%;
+	 border-radius:3px;
+	}
+.container .containerproject .project{
+	 width:31.93%;
+	 margin:0.7%;
+	}
+.container .project img {
+	 width:100%;
+	 height:85%;
+	}
+.container #proje .project img{
+	 height:100%;
+	}
+.container .project p {
+	 width:100%;
+	 height:15%;
+	 background:#4389ad;
+	 color:#fff;
+	 font:18px 'Ubuntu', sans-serif;
+	 text-align:center;
+	 margin:-0.5% 0px;
+	 padding:3%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+.container #haktext{
+	 width:98%; 
+	 float:left;
+	 margin:3% 1%;
+	 border-radius:3px;
+	 text-align:center;
+	}
+ .container #haktext img{
+	 width:100%;
+	 height:350px;
+	 margin:0px 0px 2% 0px;
+	}
+ .container #haktext p{
+	 color:#000;
+	 font:17px 'Ubuntu', sans-serif;
+	}
+ .container #vision{
+	 width:98%;
+	 height:285px;
+	 background:#ebebeb; 
+	 float:left;
+	 margin:1%;
+	 border-radius:3px;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	 padding:1%
+	}
+   .container #vision img{
+	 height:100%;
+	 float:left;
+	 border-radius:3px;
+	 margin:0px 2% 0px 0px;
+	}
+   .container #vision h2{
+	 color:#4389ad;
+	 font:bold 25px 'Ubuntu', sans-serif;
+	 margin:0px 0px 2% 0px;
+	}
+  .container #vision p{
+	 color:#000;
+	 font:17px 'Ubuntu', sans-serif;
+	}
+  .container #mission{
+	 width:98%;
+	 height:285px; 
+	 background:#ebebeb;
+	 float:left;
+	 text-align:right;
+	 margin:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	 padding:1%
+	}
+   .container #mission img{
+	 height:100%;
+	 float:right;
+	 border-radius:3px;
+	  margin:0px 0px 0px 2%;
+	}
+	.container #mission h2{
+	 color:#4389ad;
+	 font:bold 25px 'Ubuntu', sans-serif;
+	 margin:0px 0px 2% 0px;
+	}
+    .container #mission p{
+	 color:#000;
+	 font:17px 'Ubuntu', sans-serif;
+	}
+	.container iframe{
+	 width:98%;
+	 height:350px;
+	 background:#ebebeb;
+	 margin:3% 1%;
+	}
+	.container #message{
+	 float:left;
+	 width:63%;
+	 height:350px;
+	 background:#ebebeb;
+	 margin:3% 1%;
+	 padding:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #message h2{
+	 font:30px 'Ubuntu', sans-serif;
+     color:#4389ad;
+	 margin-left:1%;
+	 height:10%;
+	}
+	.container #message form{
+	 height:90%;
+	 width:100%;
+	}
+	.container #message input[type=text],.container #message input[type=email]{
+	 width:48%;
+	 margin:1%;
+	 float:left;
+	 border:none;
+	 border-radius:3px;
+	 font:21px 'Ubuntu', sans-serif;
+	 height:8%;
+	 padding:3%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #message input[type=button]{
+	 width:98%;
+	 height:10%;
+	 background:#4389ad;
+	 margin:1%;
+	 color:#fff;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #message textarea{
+	 width:98%;
+	 height:60%;
+	 margin:1%;
+	 resize:none;
+	 border-radius:3px;
+	 font:21px 'Ubuntu', sans-serif;
+	 padding:3%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #contact_container{
+	 float:left;
+	 width:33%;
+	 height:350px;
+	 background:#ebebeb;
+	 margin:3% 1%;
+	}
+	.container #contact_container .contact{
+	 height:27.33%;
+	 margin:3%;
+	 border-bottom:#4389ad solid 3px;
+	}
+	.container #contact_container .contact img{
+	 float:left;
+	 height:75%;
+	}
+	.container #contact_container .contact #text{
+	 width:81%;
+	 float:right;
+	 font:18px 'Ubuntu', sans-serif;
+	 margin-top:-5%;
+	 padding:0px;
+	}
+	.container #contact_container .contact .text{
+	 height:50%;
+	 width:76%;
+	 float:right;
+	 border-bottom:#4389ad solid 3px;
+	 font:18px 'Ubuntu', sans-serif;
+	 padding:3%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+#footer{
+	 width:100%;
+	 height:40px;
+	 clear:both;
+	 background:#4389ad;
+	}
+#footer .container #footertext{
+	 width:100%;
+	 height:100%;
+	 padding:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	 text-align:center;
+	}
+#footer .container #footertext p{
+	 color:#fff;
+	 font:15px 'Ubuntu', sans-serif;
+	}
+#footer .container #medya{
+	 float:right;
+	 width:34%;
+	 height:100%;
+	 margin-right:1%;
+	}
+#footer .container #medya  img{
+	 float:right;
+	 height:30px;
+	 width:30px;
+	 margin:5px;
+	}
+#footer .container #medya p{
+	 float:right;
+	 color:#fff;
+	 font:17px 'Ubuntu', sans-serif;
+	 padding-top:10px;
+	}
+
+

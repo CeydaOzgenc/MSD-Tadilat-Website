@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+@media(min-width: 1801px){
+	   .container{
+		     width:1500px;
+		   }
+	   .flexslider {
+            max-width:3000px;
+			min-width:1800px;
+          }
+	    #banner{
+	        max-width:3000px;
+			min-width:1800px;
+	      }
+		#banner img{
+	        width:100%;
+	      }  
+		 .container #contact_container .contact #text{
+	        margin-top:1%;
+			font-size:27px;
+	      }
+		  .container #contact_container .contact .text{
+            font-size:27px;
+			padding:0px;
+	      }
+		  .container #message textarea{
+	        height:54%;
+	      }
+		   .container #call #ara #containerara{
+	 width:250px; 
+	}
+		
+	}
+ @media(max-width: 1800px){
+	   .container{
+		     width:1400px;
+		   }
+	   .flexslider {
+            max-width:1800px;
+			min-width:1600px;
+          }
+		#banner{
+	        max-width:1800px;
+			min-width:1600px;
+	      }
+		#banner img{
+	        width:100%;
+	      }
+		 .container #message textarea{
+	        height:55%;
+	      }
+		 .container #contact_container .contact #text{
+	        margin-top:3%;
+	      }
+		  .container #call #ara #containerara{
+	 width:250px; 
+	}
+	}
+@media(max-width: 1600px){
+	   .container{
+		     width:1200px;
+		   }
+	   .flexslider {
+            max-width:1600px;
+			min-width:1400px;
+          }
+		#banner{
+	        max-width:1600px;
+			min-width:1400px;
+	      }
+		 .container #message textarea{
+	        height:59%;
+	      }
+		 .container #contact_container .contact #text{
+	        margin-top:-2%;
+	      }
+	}
+@media(max-width: 1400px){
+	   .container{
+		     width:1000px;
+		   }
+	   .flexslider {
+            max-width:1400px;
+			min-width:1200px;
+          }
+	   #banner{
+	        max-width:1400px;
+			min-width:1200px;
+	      }
+	   .container #contact_container .contact #text{
+	        margin-top:-3%;
+	      }
+       .container #call #ara #containerara{
+	 width:100%;
+	}
+	}
+@media(max-width: 1200px){
+	   .container{
+		     width:900px;
+		   }
+	   .flexslider {
+            max-width:1200px;
+			min-width:1000px;
+          }
+		 #banner{
+	        max-width:1200px;
+			min-width:1000px;
+	      }
+	.container #vision img{
+	 width:40%;
+	}
+	.container #mission img{
+	 width:40%;
+	}
+	.container #contact_container .contact .text{
+	 width:74%;
+	 font-size:17px;
+	}
+	.container #contact_container .contact #text{
+	 width:83%;
+	 font-size:16px;
+	 margin-top:-3%;
+	}
+	.container #call #number h2{
+	 font-size:28px;
+	}
+	.container #message textarea{
+	 height:62%;
+	}
+     
+	}
+@media(max-width: 1000px){
+	   .container{
+		     width:800px;
+		   }
+		#navbar a{
+	        font-size:17px;
+	       }
+		.flexslider {
+            max-width:1000px;
+			min-width:800px;
+          }
+		 #banner{
+	        max-width:1000px;
+			min-width:800px;
+	      }
+		  .container #message textarea{
+	 height:65%;
+	}
+	.container #vision {
+	height:365px;
+	}
+	.container #mission{
+	 height:365px;
+	}
+	.container #vision img{
+	 width:50%;
+	}
+	.container #mission img{
+	 width:50%;
+	}
+	.container #contact_container .contact img{
+	 height:75%;
+	}
+	.container #contact_container .contact .text{
+	 width:70%;
+	 font-size:14px;
+	 padding:4%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #contact_container .contact #text{
+	 width:83%;
+	 font-size:14px;
+	 margin-top:-3%;
+	}
+	.container #call #number h2{
+	 font-size:25px;
+	}
+	.container #call #ara #containerara h2{
+		  font-size:17px;
+		}
+	}
+@media(max-device-width: 800px){
+	   .container{
+		     width:100%;
+		   }
+	.container #call,.container #hakkimizda,.container .containerproject,.container iframe,.container #message,.container #contact_container, .grid_columns3 .grid-item,.container #vision,.container #mission,.container .project{
+	 width:80%;
+	 margin:3% 10%;
+	}
+	.container #call,.container #contact_container, .grid_columns3 .grid-item,.container .project{
+	 height:500px; 
+	}
+	.container #hakkimizda,.container .containerproject{
+	 padding:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+ .container #message,.container #vision,.container #mission{
+	 height:auto;
+	}
+		#nav{
+	 height:150px;
+	}
+	    .container #navbar{
+	  width:30%;
+	}
+	.container #logo {
+	  padding-top:25px;
+	  box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+
+	}
+	.container #logo img{
+	  height:100px;
+	}
+	#navbar #mobile {	  
+	  display:block;
+	  width:100%;
+	  height:100%;
+	  padding-top:55px;
+	  box-shadow:4px 2px 11px 0px rgba(0, 0, 0, 0.7);
+	  
+	}
+		#navbar li {
+	  display:none;	  
+	  float:none;
+	  width:100%;
+	  height:70%;
+	  padding-top:33px;
+	  box-shadow:4px 0px 11px 0px rgba(0, 0, 0, 0.7);
+	}
+	#navbar a{
+	  font:37px 'Ubuntu', sans-serif;
+	}
+	#navbar  a #mobile {
+	  font-weight:bold;
+	}
+	.container #call #ara{
+	 height:200px;
+	}
+	 .container #call #ara p{
+	  font-size:34px;
+	}
+	.container #call #ara #containerara{
+	 width:500px; 
+	 height:60%;
+	 background:rgba(0,0,0,0.3);
+	 margin-left:auto;
+	 margin-right:auto;
+	 border-radius:90px;
+	}
+	.container #call #ara #containerara #callme{
+	 border-radius:100px;
+	 width:30%;
+	 margin:7px;
+	}
+	.container #call #ara #containerara h2{
+	 font:bold 39px 'Ubuntu', sans-serif;
+	 padding:44px 13px;
+	}
+	.container #call #number{
+	 height:200px;
+	}
+	.container #call #number h2{
+	 font:bold 65px 'Ubuntu', sans-serif;
+	}
+	.container #hakkimizda a{ 
+	 height:450px;
+	 width:97%;
+	}
+	.container #hakkimizda h2{
+	 font-size:45px;
+	 height:auto;
+	}
+    .container #hakkimizda p {
+	 font-size:40px;
+	}
+ .container .project p {
+	 font-size:40px;
+	 padding:2%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+ .container #message h2{
+	 font-size:45px;
+	}
+ .container #message input[type=text],.container #message input[type=email]{
+	 width:98%;
+	 font-size:39px;
+	 padding:5%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+  	.container #message input[type=button]{
+	 font-size:39px;
+	 padding:3%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #message textarea{
+	 font-size:39px;
+	 height:300px;
+	 padding:5%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+ .container #contact_container .contact .text{
+	 height:40%;
+	 width:78%;
+	 font-size:39px;
+	 padding:0px;
+	}
+ 	.container #contact_container .contact #text{
+	 width:81%;
+	 font-size:39px;
+	 margin-top:3%;
+	}
+#swipebox-container .slide.current img {
+	height:35%;
+	margin-top:60%;
+}
+#swipebox-container .slide img {
+	height:35%;
+	margin-top:60%;
+}
+ .container #haktext{
+	 width:80%;
+	 margin:3% 10%;
+	 padding:1%;
+	 box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+	}
+	.container #haktext img{
+	 width:100%;
+	 height:auto;
+	}
+     .container #vision img{
+	 width:100%;
+	 height:inherit;
+	}
+	.container #vision h2{
+	 display:none;
+	}
+     .container #mission img{
+	 width:100%;
+	 height:inherit;
+	}
+	.container #mission h2{
+	 display:none;
+	}
+ .container .containerproject .project{
+	 width:96%;
+	 height:500px; 
+	 margin:2%;
+	}
+	.container #message h2{
+	 height:auto;
+	}
+	.container #message form{
+	 height:auto;
+	}
+	.flexslider {
+  background: #fff;
+  position: relative;
+  zoom: 1;
+  margin-left:auto;
+  margin-right:auto;
+}
+#banner{
+	        max-width:100%;
+	      }
+#footer{
+	 height:70px;
+	}
+#footer .container #medya .medya1 p{
+	 font-size:27px;
+	 margin-top:-5%;
+	}
+	#footer .container #footertext p{
+			font-size:27px;
+			margin:1%;
+	      }
+.container .containerproject h2{
+	        font-size:40px;
+	}
+}
